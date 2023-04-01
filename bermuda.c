@@ -6,8 +6,6 @@
  * Return: 0 (Always for Success)
 */
 
-
-
 int main(void)
 {
     float latitude;
