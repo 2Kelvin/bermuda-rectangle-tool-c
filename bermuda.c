@@ -5,7 +5,7 @@
 /**
  * main - read data fom GPS file & write it to 3 custom created data-stream files
  * Return: 0 (Always for Success)
-*/
+ */
 
 int main(void)
 {
@@ -20,7 +20,7 @@ int main(void)
     {
         if (strstr(line, "UFO"))
             fprintf(file1, "%s\n", line);
-        else if (strsrt(line, "Disappearance"))
+        else if (strstr(line, "Disappearance"))
             fprintf(file2, "%s\n", line);
         else
             fprintf(file3, "%s\n", line);
@@ -32,3 +32,5 @@ int main(void)
 
     return (0);
 }
+
+// RUN THE PROGRAM SEE WHAT IT DOES DAWG!!
